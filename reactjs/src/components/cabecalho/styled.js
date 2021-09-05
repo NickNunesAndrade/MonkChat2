@@ -31,7 +31,15 @@ const ContainerCabecalho = styled.div`
     }
 `
 
+const bot1 = styled.div`
+    cursor: pointer;
+    &:hover {
+        transition: 0.5s;
+        box-shadow: rgba(192, 65, 224, 0.19);
+    }
+`
 
 
 
-export { Barra, ContainerCabecalho }
+
+export { Barra, ContainerCabecalho, bot1 }
